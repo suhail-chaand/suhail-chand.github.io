@@ -1,0 +1,138 @@
+html {
+    height: 100%;
+}
+
+body {
+    margin: 10px;
+    min-height: 100%;
+}
+
+#header {
+    display: flex;
+    height: 220px;
+    width: 100%;
+    background-color: rgb(200, 250, 255);
+}
+
+#crop-img {
+    width: 152px;
+    padding: 34px;
+}
+
+#crop-img img {
+    display: block;
+    width: 100%;
+    border-radius: 50%;
+}
+
+#caption {
+    padding-top: 48px;
+}
+
+#caption h3 {
+    margin: 5px 0;
+    font-size: 40px;
+    font-weight: lighter;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #090066;
+}
+
+#caption p {
+    margin: 0;
+    font-size: 16px;
+    font-family: fantasy;
+    color: #00444f;
+}
+
+#contact {
+    padding-top: 12px;
+    width: 100%
+}
+
+#contact a img {
+    width: 22px;
+}
+
+#contact a img:hover {
+    cursor: pointer;
+    transform: scale(1.2);
+}
+
+#linkedin,
+#github,
+#blog {
+    padding-left: 12px
+}
+
+@media screen and (max-width:720px) {
+    #header {
+        height: 180px
+    }
+    #crop-img {
+        width: 120px;
+        padding: 30px;
+    }
+    #caption {
+        padding-top: 30px
+    }
+}
+
+@media screen and (max-width:480px) {
+    #header {
+        height: 160px;
+    }
+    #crop-img {
+        width: 100px;
+        padding: 30px;
+    }
+    #caption {
+        padding-top: 30px;
+    }
+    #caption h3 {
+        font-size: 30px;
+    }
+    #caption p {
+        font-size: 12px;
+    }
+    #contact {
+        padding-top: 10px;
+    }
+    #contact a img {
+        width: 18px;
+    }
+    #linkedin,
+    #github,
+    #blog {
+        padding-left: 8px
+    }
+}
+
+@media screen and (max-width:360px) {
+    #header {
+        height: 140px;
+    }
+    #crop-img {
+        width: 80px;
+        padding: 30px 15px;
+    }
+    #caption {
+        padding-top: 28px;
+    }
+    #caption h3 {
+        font-size: 24px;
+    }
+    #caption p {
+        font-size: 10px;
+    }
+    #contact {
+        padding-top: 8px;
+    }
+    #contact a img {
+        width: 16px;
+    }
+    #linkedin,
+    #github,
+    #blog {
+        padding-left: 5px
+    }
+}

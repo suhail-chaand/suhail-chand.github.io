@@ -1,0 +1,39 @@
+#navbar {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    background-color: rgb(230, 230, 230);
+}
+
+#navbar a {
+    font-size: 16px;
+    color: #090066;
+    text-align: center;
+    padding: 10px 7%;
+}
+
+#navbar a:hover {
+    background-color: rgb(200, 250, 255);
+    cursor: pointer;
+}
+
+@media screen and (max-width:720px) {
+    #navbar {
+        display: inline-grid;
+        justify-content: stretch;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #navbar a {
+        font-size: 12px;
+        padding: 6px;
+    }
+}
+
+@media screen and (max-width:480px) {
+    #navbar a {
+        font-size: 11px;
+        padding: 6px;
+    }
+}
