@@ -1,7 +1,5 @@
 #navbar {
     display: flex;
-    position: sticky;
-    top: 0;
     justify-content: space-between;
     width: 100%;
     background-color: rgb(230, 230, 230);
@@ -13,6 +11,7 @@
     text-align: center;
     text-decoration: none;
     padding: 10px 7%;
+    animation: slide 15s;
 }
 
 #navbar a:hover {

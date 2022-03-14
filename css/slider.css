@@ -1,0 +1,30 @@
+#container {
+    height: 60vh;
+    width: 100%;
+}
+
+#wrapper {
+    width: 98%;
+    height: 98%;
+    margin: auto;
+}
+
+#slider-holder {
+    display: grid;
+    grid-template-columns: repeat(4, 100%);
+    height: 100%;
+    overflow: scroll;
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+#slider-holder div {
+    padding: 30px;
+}
+
+
+/*Hide scrollbar in Chrome*/
+
+#slider-holder::-webkit-scrollbar {
+    display: none;
+}
