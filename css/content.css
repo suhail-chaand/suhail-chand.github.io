@@ -1,4 +1,44 @@
 #slider-holder div {
     overflow-x: hidden;
-    padding: 30px;
+    padding: 5px 20px;
+}
+
+#about {
+    display: inline-flex;
+}
+
+#body {
+    width: 50%
+}
+
+#video {
+    width: 50%;
+    overflow: hidden;
+}
+
+#about-headline,
+#skills-headline {
+    font-size: 18px;
+    color: #090066;
+    padding: 5px 0;
+    border-bottom: 3px solid #090066;
+}
+
+iframe {
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width:840px) {
+    #about {
+        display: initial;
+        overflow-x: wrap;
+    }
+    #body {
+        width: 94%
+    }
+    #video {
+        width: 94%;
+        height: 100%;
+    }
 }
